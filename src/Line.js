@@ -100,7 +100,7 @@ export default class LineChart extends Component {
 
     if(showAreas){
       areas = _.map(chart.curves, function (c, i) {
-        return <Path key={'areas' + i} d={ c.area.path.print() } fillOpacity={0.5} stroke="none" fill={ this.color(i) }/>
+        return <Path key={'areas' + i} d={ c.area.path.print() } fillOpacity={this.props.options.areaOpacity} stroke="none" fill={ this.props.options.areaColor} />
       }.bind(this))
     }
 
