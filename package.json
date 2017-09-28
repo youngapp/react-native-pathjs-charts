@@ -37,10 +37,10 @@
     }
   ],
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "lodash": "^4.17.4",
+    "babel-polyfill": "^6.23.0",
+    "lodash": "^4.12.0",
     "paths-js": "^0.4.5",
-    "react-native-svg": "^5.4.1"
+    "react-native-svg": "~5.4.0"
   },
   "devDependencies": {
     "babel-jest": "*",
